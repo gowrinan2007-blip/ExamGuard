@@ -1,0 +1,41 @@
+# Python virtual environment and local environment files
+.venv/
+.venv/**
+.env
+.env.*
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Data and dataset folders
+data/
+datasets/
+
+# Model checkpoints and training outputs
+checkpoints/
+*.pt
+*.pth
+runs/
+artifacts/
+logs/
+
+# Local editor/IDE state that should stay out of Git unless intentionally tracked
+.idea/
+*.swp
+*.swo
